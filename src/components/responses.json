@@ -1,0 +1,238 @@
+[
+  {
+    "keywords": [
+      "hi",
+      "hey",
+      "hola",
+      "hello",
+      "namaste",
+      "yo"
+    ],
+    "response": "Hey, welcome to Relief - I am a chatbot that will help you reduce your stress.",
+    "optional_response": "Try asking about stress, anxiety, breathing exercises..."
+  },
+  {
+    "keywords": [
+      "stress",
+      "overwhelmed",
+      "anxious",
+      "pressure"
+    ],
+    "response": "I understand that stress can be overwhelming. Taking deep breaths or a short break can help. How have you been coping?",
+    "optional_response": "Would you like some tips on managing stress more effectively?"
+  },
+  {
+    "keywords": [
+      "lonely",
+      "alone",
+      "isolated",
+      "disconnected"
+    ],
+    "response": "Feeling lonely is tough. Staying connected with loved ones, even virtually, can help. I'm here to listen.",
+    "optional_response": "Would you like ideas on how to stay connected and engage with others?"
+  },
+  {
+    "keywords": [
+      "depressed",
+      "sad",
+      "down",
+      "low mood"
+    ],
+    "response": "It's okay to feel sad sometimes. You can try talking with a friend or family member.",
+    "optional_response": "Listening to music can help too."
+  },
+  {
+    "keywords": [
+      "help",
+      "support",
+      "need assistance",
+      "looking for guidance"
+    ],
+    "response": "I'm here to help. Please share what you're feeling, and I'll do my best to support you.",
+    "optional_response": "I'm here to listen. Is there something specific on your mind right now?"
+  },
+  {
+    "keywords": [
+      "angry",
+      "frustrated",
+      "mad",
+      "upset"
+    ],
+    "response": "Feeling angry is completely normal. It might help to talk about what’s making you feel this way. Want to share?",
+    "optional_response": "Would you like to explore some techniques to manage these strong emotions?"
+  },
+  {
+    "keywords": [
+      "sleep",
+      "tired",
+      "insomnia",
+      "rest"
+    ],
+    "response": "Getting enough sleep is crucial for your well-being. Have you tried creating a relaxing bedtime routine?",
+    "optional_response": "Would you like more tips on improving your sleep quality?"
+  },
+  {
+    "keywords": [
+      "anxiety",
+      "nervous",
+      "worried",
+      "uneasy"
+    ],
+    "response": "Anxiety can be hard to manage. Techniques like deep breathing or writing down your thoughts can help. Would you like to try a breathing exercise?",
+    "optional_response": "I'm here to support you. Let me know if you’d like more strategies to manage anxiety."
+  },
+  {
+    "keywords": [
+      "yes",
+      "yeah",
+      "yup"
+    ],
+    "response": "Nice to hear that! Here is a video you should definitely watch: https://youtube.com/ok123"
+  },
+  {
+    "keywords": [
+      "no",
+      "not really",
+      "nah"
+    ],
+    "response": "That's okay! Let me know if there's something else on your mind or if I can help with anything specific.",
+    "optional_response": "Feel free to ask me anything whenever you're ready."
+  },
+  {
+    "keywords": [
+      "meditate",
+      "meditation",
+      "mindfulness",
+      "relaxation"
+    ],
+    "response": "Meditation can be a great way to relax and reduce stress. Have you tried any meditation techniques before?",
+    "optional_response": "I can guide you through a short breathing exercise if you'd like!"
+  },
+  {
+    "keywords": [
+      "exercise",
+      "workout",
+      "fitness",
+      "activity"
+    ],
+    "response": "Physical activity is a wonderful way to boost your mood. Have you considered a quick walk or some stretching?",
+    "optional_response": "Let me know if you’d like some exercise suggestions to relieve stress."
+  },
+  {
+    "keywords": [
+      "grateful",
+      "gratitude",
+      "appreciation",
+      "thankful"
+    ],
+    "response": "Practicing gratitude can help shift focus to positive aspects of life.",
+    "optional_response": "Taking a moment to appreciate small things can make a big difference!"
+  },
+  {
+    "keywords": [
+      "breathe",
+      "breathing",
+      "inhale",
+      "exhale"
+    ],
+    "response": "Breathing exercises can be very calming. Try taking a deep breath in, hold, and slowly release.",
+    "optional_response": "Would you like a guided breathing exercise?"
+  },
+  {
+    "keywords": [
+      "panic",
+      "panic attack",
+      "overwhelmed",
+      "can't breathe"
+    ],
+    "response": "I’m here with you. Panic attacks are intense but they pass. Try grounding by focusing on the feel of an object in your hand or naming 5 things you can see.",
+    "optional_response": "Would you like a grounding technique to help you through this moment?"
+  },
+  {
+    "keywords": [
+      "relationship",
+      "breakup",
+      "heartbreak",
+      "lost love"
+    ],
+    "response": "Breakups can be very painful. It's okay to feel a mix of emotions. Taking time to grieve is normal.",
+    "optional_response": "Would talking through your feelings help, or would you like some tips for self-care during this time?"
+  },
+  {
+    "keywords": [
+      "motivation",
+      "unmotivated",
+      "can't focus",
+      "procrastinate"
+    ],
+    "response": "Lack of motivation happens to everyone. Sometimes breaking tasks into small steps can help you get started.",
+    "optional_response": "Would you like tips on how to boost your focus and motivation?"
+  },
+  {
+    "keywords": [
+      "self-esteem",
+      "confidence",
+      "insecure",
+      "not good enough"
+    ],
+    "response": "Struggling with self-esteem is common. Remember that you're worthy as you are, and self-compassion can make a big difference.",
+    "optional_response": "Would you like to try an exercise for boosting self-worth?"
+  },
+  {
+    "keywords": [
+      "fear",
+      "scared",
+      "afraid",
+      "phobia"
+    ],
+    "response": "Fear is a natural response. If you’re open to it, talking about what scares you might help lessen its power.",
+    "optional_response": "I can share some techniques for managing fear if you'd like."
+  },
+  {
+    "keywords": [
+      "goal",
+      "planning",
+      "future",
+      "ambition"
+    ],
+    "response": "Setting goals is a great way to stay motivated! Start with small, achievable steps.",
+    "optional_response": "Would you like guidance on breaking down your goals?"
+  },
+  {
+    "keywords": [
+      "joy",
+      "happy",
+      "content",
+      "smile"
+    ],
+    "response": "That’s wonderful to hear! Happiness can be contagious – I hope it spreads to others around you too!",
+    "optional_response": "If you'd like, you can share what's bringing you joy today."
+  },
+  {
+    "keywords": [
+      "confused",
+      "unsure",
+      "uncertain",
+      "lost"
+    ],
+    "response": "Feeling lost or unsure can be unsettling. Sometimes talking it out or listing pros and cons can bring clarity.",
+    "optional_response": "Let me know if you'd like support with decision-making."
+  },
+  {
+    "keywords":[
+      "thanks",
+      "thank you",
+      "gracias",
+      "dhanyavad"
+    ],
+    "response": "Hope I was able to help. If you need any more assistance, feel free to let me know"
+  },
+  {
+    "keywords":[
+      "play game",
+      "game",
+      "play a game"
+    ],
+    "response": "Yes, playing game is also an good way to relieve your stress."
+  }
+]

@@ -1,0 +1,32 @@
+
+/* Default Theme */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  /* Cool Theme */
+  .cool-theme {
+    --bg-color: #d0e7ff;
+    --text-color: #003366;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    --bg-color: #292828;
+    --text-color: #bdbdbd;
+  }
+  
+  /* Calm Theme */
+  .calm-theme {
+    --bg-color: #f2e7d5;
+    --text-color: #5b4b40;
+  }
+  
+  /* Apply Variables */
+  body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  

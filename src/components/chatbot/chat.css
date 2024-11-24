@@ -1,0 +1,41 @@
+.bot-bubble,
+.user-bubble {
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.bot-bubble {
+    background-color: #a3d6e0;
+    text-align: left;
+    position: relative;
+}
+
+.bot-bubble::after {
+    display: block;
+    position: absolute;
+    width: 0;
+    content: "";
+    border: 12px solid transparent;
+    left: -11px; 
+    top: calc(50% - 15px);
+    border-right-color: #a3d6e0;
+    border-left: 0;
+}
+
+.user-bubble {
+    background-color: #f1c84b;
+    text-align: right;
+    position: relative;
+}
+.user-bubble::after{
+    display: block;
+    position: absolute;
+    width: 0;
+    content: "";
+    border: 12px solid transparent;
+    right: -10px; 
+    top: calc(50% - 12px);
+    border-left-color: #f1c84b;
+    border-right: 0;
+}
