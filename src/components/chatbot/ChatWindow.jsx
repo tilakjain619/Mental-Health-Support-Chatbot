@@ -5,7 +5,11 @@ import responses from '../responses.json';
 import logo from '../../assets/logo.svg';
 
 const ChatWindow = () => {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([
+    { text: "Hey, welcome to Relief", sender: "bot" },
+    { text: "type `theme` to change theme", sender: "bot" },
+  ]);
+  
   const [timer, setTimer] = useState(0);
   const [showStopButton, setShowStopButton] = useState(false);
   const [isRunning, setIsRunning] = useState(false);
@@ -25,18 +29,23 @@ const ChatWindow = () => {
     console.log("runned");
 
   }
-  useEffect(() =>{
-    setMessages((prevMessages) => [
-      ...prevMessages,
-      { text: "Hey, welcome to Relief", sender: "bot" },
-      { text: "which theme do you want to use?", sender: "bot" }
-    ]);
-    setShowThemeOptions(true);
-  }, []);
+  // useEffect(() => {
+  //   if (messages.length === 0) {
+  //     setMessages([
+  //       { text: "Hey, welcome to Relief", sender: "bot" },
+  //       { text: "which theme do you want to use?", sender: "bot" },
+  //     ]);
+  //     setShowThemeOptions(true);
+  //   }
+  // }, [messages]);
+  
 
   useEffect(() => {
-    scrollToBottom();
+    if (messages.length > 0) {
+      scrollToBottom();
+    }
   }, [messages]);
+  
 
 
   useEffect(() => {
@@ -78,17 +87,18 @@ const ChatWindow = () => {
     if (isRunning && !isPaused) {
       interval = setInterval(() => {
         setTimer((prevTime) => prevTime + 1);
-
-        // Alternate breathing stages every 4 seconds
-        if (timer % 4 === 0) {
-          setBreathStage((prevStage) => (prevStage === "Breathe In" ? "Breathe Out" : "Breathe In"));
-        }
       }, 1000);
-    } else if (!isRunning) {
+    } else {
       clearInterval(interval);
     }
+  
+    if (timer > 0 && timer % 4 === 0) {
+      setBreathStage((prevStage) => (prevStage === "Breathe In" ? "Breathe Out" : "Breathe In"));
+    }
+  
     return () => clearInterval(interval);
   }, [isRunning, isPaused, timer]);
+  
 
   const handlePause = () => setIsPaused(true);
   const handleStart = () => setIsPaused(false);
@@ -137,7 +147,7 @@ const ChatWindow = () => {
       },
       {
         keywords: ["theme"],
-        action: setShowThemeOptions(true)
+        action: () => setShowThemeOptions(true)
       }
     ];
 
@@ -197,6 +207,7 @@ const ChatWindow = () => {
         {
           showThemeOptions && (
             <div className="flex flex-col gap-1 mt-2">
+              <p>Choose Theme: </p>
           <button className='text-left' onClick={() => handleThemeChange('default')}>Default</button>
           <button className='text-left' onClick={() => handleThemeChange('cool')}>Cool</button>
           <button className='text-left' onClick={() => handleThemeChange('dark')}>Dark Mode</button>
