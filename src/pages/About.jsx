@@ -8,7 +8,7 @@ const About = () => {
             <BackgroundBeamsWithCollision className="fixed -z-10 h-full w-full">
 
             </BackgroundBeamsWithCollision>
-            <div className='container mx-auto px-5 py-3 pt-5 text-white flex flex-col gap-3'>
+            <div className='w-full md:w-[60%] mx-auto px-5 py-3 pt-5 text-white flex flex-col gap-3'>
                 <div>
                     <img className='w-20 md:w-32' src={logo} alt="Relief Logo" />
                 </div>

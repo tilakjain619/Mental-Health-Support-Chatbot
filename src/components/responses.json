@@ -87,7 +87,8 @@
       "yeah",
       "yup"
     ],
-    "response": "Nice to hear that! Here is a video you should definitely watch: https://youtube.com/ok123"
+    "response": "Nice to hear that! Below are some useful resources",
+    "optional_response": "1️⃣ 2 Minutes Meditation: https://youtu.be/75PUjUsGsQQ?si=ZbNSucRw_2onkixc 2️⃣ Deep Breathing Exercises: https://youtu.be/395ZloN4Rr8?si=KqTFC2h7WCEoMEMW"
   },
   {
     "keywords": [
@@ -105,8 +106,8 @@
       "mindfulness",
       "relaxation"
     ],
-    "response": "Meditation can be a great way to relax and reduce stress. Have you tried any meditation techniques before?",
-    "optional_response": "I can guide you through a short breathing exercise if you'd like!"
+    "response": "Meditation can be a great way to relax and reduce stress.",
+    "optional_response": "I can give you useful resources related to breathing exercise if you'd like!"
   },
   {
     "keywords": [
@@ -145,8 +146,7 @@
       "overwhelmed",
       "can't breathe"
     ],
-    "response": "I’m here with you. Panic attacks are intense but they pass. Try grounding by focusing on the feel of an object in your hand or naming 5 things you can see.",
-    "optional_response": "Would you like a grounding technique to help you through this moment?"
+    "response": "I’m here with you. Panic attacks are intense but they pass. Try grounding by focusing on the feel of an object in your hand or naming 5 things you can see."
   },
   {
     "keywords": [
@@ -175,8 +175,7 @@
       "insecure",
       "not good enough"
     ],
-    "response": "Struggling with self-esteem is common. Remember that you're worthy as you are, and self-compassion can make a big difference.",
-    "optional_response": "Would you like to try an exercise for boosting self-worth?"
+    "response": "Struggling with self-esteem is common. Remember that you're worthy as you are, and self-compassion can make a big difference."
   },
   {
     "keywords": [
@@ -234,5 +233,18 @@
       "play a game"
     ],
     "response": "Yes, playing game is also an good way to relieve your stress."
+  },
+  {
+    "keywords": [
+      "danger",
+      "suicide",
+      "crisis",
+      "emergency", 
+      "self-harm",
+      "self harm"
+    ],
+    "response": "Please stay calm. Reach out for immediate help using the contacts below.",
+    "optional_response": "NATIONAL EMERGENCY NUMBER: 112, POLICE: 100, FIRE: 101, AMBULANCE: 102"
   }
+  
 ]
