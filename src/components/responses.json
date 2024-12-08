@@ -204,9 +204,8 @@
       "content",
       "smile"
     ],
-    "response": "That’s wonderful to hear! Happiness can be contagious – I hope it spreads to others around you too!",
-    "optional_response": "If you'd like, you can share what's bringing you joy today."
-  },
+    "response": "That’s wonderful to hear! Happiness can be contagious – I hope it spreads to others around you too!"
+    },
   {
     "keywords": [
       "confused",
