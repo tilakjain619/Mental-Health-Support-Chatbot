@@ -29,7 +29,7 @@ Relief is a ReactJS-based mental health chatbot that provides interactive suppor
 - Calming Music: Play and stop relaxing music to create a soothing environment.
 - Progress Tracking: Timer and session tracking for breathing exercises.
 - Accessibility: Speech options, and a clutter-free interface.
-- Fallback Support: If the bot doesn't recognize a query, it reassures the user with empathetic fallback messages.
+- Fallback Support: If the bot doesn't recognize a keyword, it reassures the user with empathetic fallback messages.
 
 ## Future Enhancements
 - Sentiment analysis for dynamic responses.
